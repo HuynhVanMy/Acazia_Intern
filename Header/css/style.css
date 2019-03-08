@@ -1,0 +1,102 @@
+body {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Start Header */
+.header {
+    border-bottom: 1px solid #c8ced3;
+    padding-top: 14px;
+}
+
+    /* Left */
+.header-left {
+    display: flex;
+    padding-left: 33px;
+    padding-top: 1px;
+}
+
+.logo {
+    width: 89px;
+    height: 25px;
+}
+
+.nav{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.nav-none-boder {
+    border: 0;
+}
+
+.header-nav {
+    padding-top: 5px;
+}
+
+.header-nav ul {
+    float: left;
+    list-style-type: none;
+    margin-left: -47px;
+}
+
+.header-nav ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: #73818f;
+}
+
+/* Right */
+
+.avatar {
+    height: 35px;
+    border-radius: 17px;
+    margin-top: -13px;
+}
+
+.badge {
+    position: absolute;
+    top: 0%;
+    margin-left: -11px;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #f86c6b;
+}
+
+.badge-warning {
+    color: #23282c;
+    background-color: #ffc107;
+}
+
+.badge-info {
+    color: #23282c;
+    background-color: #63c2de;
+    margin-left: 4px;
+}
+
+.badge-pill {
+    border-radius: 10rem;
+}
+
+
+/* Responsive */
+@media (max-width:990px){
+    .header-nav .nav-item{
+        display: none;
+    }
+
+    .header-left {
+        float: right;
+    }
+
+    .header-nav ul li {
+        margin-left: 0;
+    }
+}
